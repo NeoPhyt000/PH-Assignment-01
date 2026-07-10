@@ -1,0 +1,52 @@
+/* Reset Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* Common style */
+
+.common-btn{
+    display: inline-block;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1d4ed8;
+  color: white;
+  border-style: none;
+}
+
+
+/* Navbar design */
+.navbar-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 24px 72px;
+  
+    
+} 
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+} 
+
+.nav-link li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #575757;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+}
+
+
+
