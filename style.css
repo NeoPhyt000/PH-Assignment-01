@@ -44,7 +44,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    padding: 24px 150px;
+    padding: 24px 0;
     
 } 
 
@@ -183,6 +183,8 @@
 /* Pricing */
 .pricing{
     text-align: center;
+    padding: 180px 0px;
+    
 }
 
 .pricing-header {
@@ -201,12 +203,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    /* align-items: start; */
     text-align: left;
 }
 
 .pricing-card{
     padding: 30px;
+    height: 100%;
+    border: 1px solid #eaeaea;
 }
 
 .p-card-name{
@@ -271,7 +274,6 @@
 
 .pricing-card-pro .p-card-name{
     color: #9fbff8;
-    /* margin-bottom: 16px; */
 }
 
 .pricing-card-pro .p-card-h1{
