@@ -22,7 +22,7 @@
     text-align: center;
     cursor: pointer;
     background-color: #1d4ed8;
-    color: white;
+    color: #ffffff;
 
 }
 
@@ -36,6 +36,23 @@
     background-color: white;
     color:#1d4ed8;
 
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.section-title p{
+    color:#575757;
+    font-size:18px;
 }
 
 /* Navbar design */
@@ -60,13 +77,14 @@
     list-style: none;
     text-decoration: none;
     color: #575757;
-    font-family: "Inter", sans-serif;
+    font-family: "Arimo", sans-serif;
     font-size: 16px;
 }
 
 .navbtn {
     padding: 14px 18px;
     font-size: 16px;
+    font-weight: bold;
     border-style: none;
 }
 
@@ -88,7 +106,7 @@
 .hero-overlay{
     position: absolute;
     inset: 0;
-    background: rgba(10, 10, 15, 0.8);
+    background: rgba(10, 10, 15, 0.6);
 }
 
 .hero-content{
@@ -98,7 +116,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ffffff;
-    max-width: 800px;
+    max-width: 850px;
 }
 
 .hero-content h1{
@@ -118,6 +136,7 @@
     margin: 50px;
     padding: 18px 36px;
     font-size: 24px;
+    border: none;
 }
 
 /* Meet the speaker */
@@ -129,8 +148,9 @@
 
 .speakers h2 {
   font-size: 56px;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 56px;
+  color: #000102;
 }
 
 .speaker-grid {
@@ -166,37 +186,27 @@
 }
 
 .tag-blue {
-  color: #4353ff;
+  color: #2563EB;
 }
 
 .speaker-info h3 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 6px;
+  color: #0D1B2A;
 }
 
 .speaker-info p {
-  color: #6b6b6b;
-  font-size: 15px;
+  color: #575757;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Pricing */
 .pricing{
     text-align: center;
-    padding: 180px 0px;
+    padding: 120px 0px;
     
-}
-
-.pricing-header {
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-
-.pricing-para {
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 50px;
 }
 
 .pricing-c-parent{
@@ -216,18 +226,21 @@
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 18px;
+    color: #888888;
 }
 
 .p-card-h1{
     font-size: 44px;
     font-weight: bold;
     margin-bottom: 14px;
+    color: #0D1B2A;
 }
 
 .p-card-paragraph{
     font-size: 13px;
     font-weight: 400;
     margin-bottom: 20px;
+    color: #333333;
 }
 
 .pricing-card hr{
@@ -316,10 +329,145 @@
     color: #1d4ed8;
 }
 
+/* testimonial section */
+
+.testimonial-section {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.testimonial-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+.testimonial-card{
+    border:1px solid #E5E7EB;
+    border-radius:14px;
+    padding: 30px;
+}
+
+.stars{
+    color: #fbbf24;
+    margin-bottom: 20px;
+}
+
+.review{
+    color: #334155;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    min-height: 100px;
+}
+
+.testimonial-card hr{
+    border-top:1px solid #E5E7EB;
+    margin-bottom:20px;
+
+}
+
+.testimonial-card h3{
+    font-size:20px;
+    margin-bottom:8px;
+    color:#0F172A;
+
+}
+
+.testimonial-card span{
+    color:#64748B;
+    font-size:15px;
+
+}
+
+
+/* Technology Section */
+
+.technology-section{
+    padding: 80px 0;
+}
+
+.technology-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.tech{
+
+    padding:12px 24px;
+    border-radius:999px;
+    font-weight:600;
+    transition:.3s;
+    cursor:pointer;
+
+}
+
+.react{
+    background:#DBEAFE;
+    color:#2563EB;
+}
+
+.next{
+    background:#F3F4F6;
+    color:#111827;
+}
+
+.node{
+    background:#DCFCE7;
+    color:#15803D;
+}
+
+.docker{
+    background:#DBEAFE;
+    color:#0369A1;
+}
+
+.kubernetes{
+    background:#E0E7FF;
+    color:#4338CA;
+}
+
+.aws{
+    background:#FFEDD5;
+    color:#C2410C;
+}
+
+.python{
+    background:#FEF3C7;
+    color:#A16207;
+}
+
+.ai{
+    background:#F3E8FF;
+    color:#7E22CE;
+}
+
+.rust{
+    background:#FEE2E2;
+    color:#B91C1C;
+}
+
+.go{
+    background:#CFFAFE;
+    color:#0369A1;
+}
+
+.flutter{
+    background:#CCFBF1;
+    color:#0F766E;
+}
+
+.cloud{
+    background:#EDE9FE;
+    color:#6D28D9;
+}
+
 
 /* footer */
 
-footer {
+.footer {
     padding: 70px 0 30px;
     background: #0D1B2A;
 }
