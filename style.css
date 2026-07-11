@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 } 
 
 /* Common style */
@@ -22,7 +23,18 @@
     cursor: pointer;
     background-color: #1d4ed8;
     color: white;
-    border-style: none;
+
+}
+
+.common-btn-outline{
+    display: inline-block;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color:#1d4ed8;
 
 }
 
@@ -55,6 +67,7 @@
 .navbtn {
     padding: 14px 18px;
     font-size: 16px;
+    border-style: none;
 }
 
 /* Hero Section */
@@ -165,5 +178,100 @@
 .speaker-info p {
   color: #6b6b6b;
   font-size: 15px;
+}
+
+/* Pricing */
+.pricing{
+    text-align: center;
+}
+
+.pricing-header {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.pricing-para {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.pricing-c-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    /* align-items: start; */
+    text-align: left;
+}
+
+.pricing-card{
+    padding: 30px;
+}
+
+.p-card-name{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.p-card-h1{
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.p-card-paragraph{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.pricing-card hr{
+    display: none;
+}
+
+.features,
+ .features-highlight{
+    list-style-position: inside;
+    ;
+}
+
+.features li, .features-highlight li {
+  color: #1d4ed8;
+  position: relative;
+  font-size: 0.9rem;
+  color: #4a4a4a;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.features li::marker{
+    color: #1d4ed8;
+}
+
+.features-highlight li::marker{
+    color: #1d4ed8;
+}
+
+.pricing-card-pro{
+    background-color: #1d4ed8;
+    color: white;
+    border-radius: 8px;
+}
+
+.price-get-btn{
+    text-align: center;
+}
+.pricebtn{
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #1d4ed8;
 }
 
