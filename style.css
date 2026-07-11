@@ -229,6 +229,11 @@
 
 .pricing-card hr{
     display: none;
+    margin-bottom: 8px;
+}
+
+.pro-hr{
+    margin-bottom: 6px;
 }
 
 .features,
@@ -257,21 +262,56 @@
 }
 
 .pricing-card-pro{
-    background-color: #1d4ed8;
-    color: white;
-    border-radius: 8px;
+    background-color: #0d1b2a; 
+    color: #e6eefb; 
+    border-radius: 16px;
+    padding: 34px 28px;
+    box-shadow: 0 12px 30px rgba(2,6,23,0.25);
+}
+
+.pricing-card-pro .p-card-name{
+    color: #9fbff8;
+    /* margin-bottom: 16px; */
+}
+
+.pricing-card-pro .p-card-h1{
+    color: #ffffff;
+}
+
+.pricing-card-pro .p-card-paragraph{
+    color: #cbd5e1;
+    margin-bottom: 8px;
 }
 
 .price-get-btn{
     text-align: center;
+    margin-top: 18px;
 }
+
 .pricebtn{
     width: 100%;
-    display: block;
-    padding: 8px 16px;
+    display: inline-block;
+    padding: 10px 22px;
     text-align: center;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 700;
     border: 1px solid #1d4ed8;
+    background-color: white;
+    color: #1d4ed8;
+    box-shadow: 0 8px 18px rgba(29,78,216,0.18);
 }
+
+.pricing-card-pro .pricebtn{
+    background-color: #1d4ed8;
+    color: white;
+}
+
+.pricing-card-pro .features-highlight li{
+    color: #cbd5e1;
+}
+
+.pricing-card-pro .features-highlight li::marker{
+    color: #1d4ed8;
+}
+
 
